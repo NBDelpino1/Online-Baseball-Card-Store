@@ -1,0 +1,125 @@
+body {
+    padding-top: 100px;
+}
+
+.navbar-container {
+    height: 100px;
+    background-color: #000000;
+}
+
+.banner-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+
+.banner-text {
+    position: absolute;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-span {
+    color: white;
+    background: rgb(19, 95, 171);
+    /* fallback color */
+    background: rgba(19, 95, 171, 0.7);
+    padding: 10px 25px 10px 25px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Quantico', sans-serif;
+    font-size: .25em;
+}
+
+@media screen and (min-width: 480px) {
+    .banner-text {
+        top: 16%;
+    }
+    .banner-span {
+        font-size: 2em;
+    }
+}
+
+.content-outer-container {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #434343);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #434343);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.links-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Quantico', sans-serif;
+    /*font-family: 'Poiret One', cursive;*/
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 480px) {
+    .links-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+a {
+    color: #ffcd37;
+}
+
+.logo-heading {
+    font-size: 1.5em;
+    color: #135fab;
+    font-family: 'Sonsie One', cursive;
+}
+
+@media screen and (min-width: 480px) {
+    .logo-heading {
+        font-size: 2em;
+    }
+}
+
+.logo-sub-text {
+    padding-left: 135px;
+    font-size: .75em;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Revalia', cursive;
+    /*font-family: 'Quantico', sans-serif;*/
+    font-style: italic;
+}
+
+@media screen and (min-width: 480px) {
+    .logo-sub-text {
+        font-size: 1em;
+        padding-left: 160px;
+    }
+}
+
+.thumbnail {
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.media-list {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.media-list-item {
+    display: inline;
+    margin: 0 15px 0 15px;
+}
